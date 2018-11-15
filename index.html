@@ -25,7 +25,7 @@
       var responseParsed,
         options = {},
         endPoint = accountId + '/players';
-      options.proxyURL = "https://solutions.brightcove.com/bcls/bcls-proxy/doc-samples-proxy-v2.php";
+      options.proxyURL = "https://solutions.brightcove.com/bcls/bcls-proxy/bcls-proxy-v2.php";
       options.url = baseURL + endPoint;
       options.requestType = "GET";
       // Call function that  calls the proxy which makes the actual call to the API
@@ -60,7 +60,7 @@
         baseURL = 'https://players.api.brightcove.com/v2/accounts/',
         endPoint = accountId + '/players/',
         playerIDsAraLength = playerIDsAra.length;
-      options.proxyURL = "https://solutions.brightcove.com/bcls/bcls-proxy/doc-samples-proxy-v2.php";
+      options.proxyURL = "https://solutions.brightcove.com/bcls/bcls-proxy/bcls-proxy-v2.php";
       options.url = baseURL + endPoint;
       var currentId = playerIDsAra[callNumber];
       options.url += currentId + '/configuration';
@@ -86,7 +86,7 @@
         baseURL = 'https://players.api.brightcove.com/v2/accounts/',
         endPoint = accountId + '/players/',
         playerIDsAraLength = playerIDsAra.length;
-      options.proxyURL = "https://solutions.brightcove.com/bcls/bcls-proxy/doc-samples-proxy-v2.php";
+      options.proxyURL = "https://solutions.brightcove.com/bcls/bcls-proxy/bcls-proxy-v2.php";
       options.url = baseURL + endPoint;
       var currentId = playerIDsAra[callNumberPublish];
       options.url += currentId + '/publish';
